@@ -35,6 +35,8 @@
 .sensor {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que los elementos se acomoden en varias líneas */
     margin: 20px auto;
     width: 90%;
     max-width: 150vh;
@@ -43,13 +45,15 @@
 .sensor img {
     width: 18vh;
     margin: 5vh;
+    flex-shrink: 0; /* Evita que la imagen se reduzca demasiado */
 }
 
 .sensor__titulo {
     font-family: var(--fuente-subtitulo);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--color-primario);
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .sensor__rango {
@@ -59,27 +63,37 @@
     margin-bottom: 10px;
 }
 
+.sensor__img{
+    width: 18vw;
+    margin: 5vw;
+}
+
 .sensor__info {
     text-align: center;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.valores{
+.valores {
     background-color: var(--color-fondo);
-    padding: 1.4vh;
+    padding: 1vh;
     border: 0.3vh solid var(--color-primario);
-    border-radius: 10%;
+    border-radius: 10px;
     font-size: 1.2rem;
+    text-align: center;
+    margin: 1vw;
 }
 
 .barra {
-    width: 100%;
+    width: 70%;
     height: 15px;
     background: var(--color-fondo);
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    margin: 3vh;
+    margin: 1vh auto;
 }
 
 .progreso {

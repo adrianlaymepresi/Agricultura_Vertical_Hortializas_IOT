@@ -46,6 +46,7 @@
     text-transform: uppercase;
 }
 
+/* 
 .sensores {
     display: flex;
     justify-content: center;
@@ -54,13 +55,14 @@
     max-width: 150vh;
     margin: auto;
 }
+*/
 
 .sensor {
     display: flex;
     align-items: center;
     flex-direction: column;
     background: var(--color-navegacion);
-    padding: 20px;
+    padding: 1.8rem;
     border-radius: 15px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     width: 50vh;
@@ -121,7 +123,7 @@
 }
 
 .conductividad {
-    background: rgb(252, 252, 147);
+    background: rgb(114, 22, 117);
     width: 40%;
     animation: animConductividad 3s infinite alternate;
 }

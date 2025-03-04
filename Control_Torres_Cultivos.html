@@ -40,6 +40,12 @@
         </nav>       
     </header>
 
+    <!-- Aquí agregas el audio -->
+    <audio id="musicaFondo" autoplay loop>
+        <source src="audio/PvsZ.mp3" type="audio/mp3">
+        <script src="js/Musica.js"></script>
+    </audio>
+
     <main class="main">
         <h2 class="main__titulo">CONTROL TORRES y BOMBA</h2>
     
@@ -47,17 +53,25 @@
             <!-- Icard Torre Papa 1 -->
             <div class="icard">
                 <img src="img/torre cultivo.jpeg" alt="Torre Papa" class="icard__imagen">
-                <p class="icard__texto">Papa</p>
-                <img src="img/papa.jpeg" alt="Verdura Papa" class="icard__verdura">
+                <p class="icard__texto">Brócoli</p>
+                <img src="img/brocoli.jpeg" alt="Verdura Papa" class="icard__verdura">
                 <button class="icard__estado" id="estadoPapa1">En funcionamiento</button>
+                <!-- Nuevo Fichaje -->
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button class="toggle-btn1 toggle-riego">Sin Riego</button>
             </div>
     
             <!-- Icard Torre Papa 2 -->
             <div class="icard">
                 <img src="img/torre cultivo.jpeg" alt="Torre Papa" class="icard__imagen">
-                <p class="icard__texto">Papa</p>
-                <img src="img/papa.jpeg" alt="Verdura Papa" class="icard__verdura">
+                <p class="icard__texto">Brócoli</p>
+                <img src="img/brocoli.jpeg" alt="Verdura Papa" class="icard__verdura">
                 <p class="icard__estado">En funcionamiento</p>
+                <!-- Nuevo Fichaje -->
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button class="toggle-btn1 toggle-riego">Sin Riego</button>
             </div>
     
             <!-- Icard Torre Lechuga 1 -->
@@ -66,6 +80,10 @@
                 <p class="icard__texto">Lechuga</p>
                 <img src="img/lechuga.jpeg" alt="Verdura Lechuga" class="icard__verdura">
                 <p class="icard__estado">En funcionamiento</p>
+                <!-- Nuevo Fichaje -->
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button class="toggle-btn1 toggle-riego">Sin Riego</button>
             </div>
     
             <!-- Icard Torre Lechuga 2 -->
@@ -74,6 +92,10 @@
                 <p class="icard__texto">Lechuga</p>
                 <img src="img/lechuga.jpeg" alt="Verdura Lechuga" class="icard__verdura">
                 <p class="icard__estado">En funcionamiento</p>
+                <!-- Nuevo Fichaje -->
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button class="toggle-btn1 toggle-riego">Sin Riego</button>
             </div>
     
             <!-- Icard Torre Zanahoria 1 -->
@@ -82,6 +104,10 @@
                 <p class="icard__texto">Zanahoria</p>
                 <img src="img/zanahoria.jpeg" alt="Verdura Zanahoria" class="icard__verdura">
                 <p class="icard__estado">En funcionamiento</p>
+                <!-- Nuevo Fichaje -->
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button class="toggle-btn1 toggle-riego">Sin Riego</button>
             </div>
     
             <!-- Icard Torre Zanahoria 2 -->
@@ -90,6 +116,10 @@
                 <p class="icard__texto">Zanahoria</p>
                 <img src="img/zanahoria.jpeg"  alt="Verdura Zanahoria" class="icard__verdura">
                 <p class="icard__estado">En funcionamiento</p>
+                <!-- Nuevo Fichaje -->
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button class="toggle-btn1 toggle-riego">Sin Riego</button>
             </div>
     
             <!-- Icard Torre Remolacha 1 -->
@@ -98,6 +128,10 @@
                 <p class="icard__texto">Remolacha</p>
                 <img src="img/remolacha.jpeg" alt="Verdura Remolacha" class="icard__verdura">
                 <p class="icard__estado">En funcionamiento</p>
+                <!-- Nuevo Fichaje -->
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button class="toggle-btn1 toggle-riego">Sin Riego</button>
             </div>
     
             <!-- Icard Torre Remolacha 2 -->
@@ -106,22 +140,34 @@
                 <p class="icard__texto">Remolacha</p>
                 <img src="img/remolacha.jpeg" alt="Verdura Remolacha" class="icard__verdura">
                 <p class="icard__estado">En funcionamiento</p>
+                <!-- Nuevo Fichaje -->
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button class="toggle-btn1 toggle-riego">Sin Riego</button>
             </div>
     
-            <!-- Icard Torre Choclo 1 -->
+            <!-- Icard Torre Espinaca 1 -->
             <div class="icard">
                 <img src="img/torre cultivo.jpeg" alt="Torre Choclo" class="icard__imagen">
-                <p class="icard__texto">Choclo</p>
-                <img src="img/choclo.jpeg" alt="Verdura Choclo" class="icard__verdura">
+                <p class="icard__texto">Espinaca</p>
+                <img src="img/espinaca.jpeg" alt="Verdura Choclo" class="icard__verdura">
                 <p class="icard__estado">En funcionamiento</p>
+                <!-- Nuevo Fichaje -->
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button class="toggle-btn1 toggle-riego">Sin Riego</button>
             </div>
     
-            <!-- Icard Torre Choclo 2 -->
+            <!-- Icard Torre Espinaca 2 -->
             <div class="icard">
                 <img src="img/torre cultivo.jpeg" alt="Torre Choclo" class="icard__imagen">
-                <p class="icard__texto">Choclo</p>
-                <img src="img/choclo.jpeg" alt="Verdura Choclo" class="icard__verdura">
+                <p class="icard__texto">Espinaca</p>
+                <img src="img/espinaca.jpeg" alt="Verdura Choclo" class="icard__verdura">
                 <p class="icard__estado">En funcionamiento</p>
+                <!-- Nuevo Fichaje -->
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button class="toggle-btn1 toggle-riego">Sin Riego</button>
             </div>
     
             <!-- Icard Bomba de Agua -->
@@ -131,12 +177,12 @@
                 <button id="toggleFan" class="toggle-btn">Apagado</button>
             </div>
     
-            <!-- Icard Estado de Riego -->
+            <!-- Icard Estado de Riego 
             <div class="icard">
                 <h3 class="icard__titulo">Estado de Riego</h3>
                 <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
                 <button id="toggleRiego" class="toggle-btn1">Sin Riego</button>
-            </div>
+            </div> -->
         </div>
     </main>
 

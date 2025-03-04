@@ -19,12 +19,21 @@ document.querySelectorAll('.toggle-btn').forEach(button => {
     });
 });
 
-document.getElementById('toggleRiego').addEventListener('click', function () {
-    const button = this;
-    if (button.textContent === 'Sin Riego') {
-        button.textContent = 'Correcto';
-    } else {
-        button.textContent = 'Sin Riego';
-    }
+document.addEventListener("DOMContentLoaded", () => {
+    const botonesRiego = document.querySelectorAll(".toggle-riego");
+
+    botonesRiego.forEach(boton => {
+        boton.addEventListener("click", () => {
+            if (boton.textContent === "Sin Riego") {
+                boton.textContent = "Con Riego";
+                boton.classList.add("encendido");
+            } else {
+                boton.textContent = "Sin Riego";
+                boton.classList.remove("encendido");
+            }
+        });
+    });
 });
+
+
 

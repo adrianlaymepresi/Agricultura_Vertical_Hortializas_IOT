@@ -36,8 +36,8 @@
     text-transform: uppercase;
 }
 
-.main__img1{
-    height: 110vh;
-    width: 150vh;
+.main__img1 {
+    width: 70vw; 
+    height: auto;
     border-radius: 5%;
 }
