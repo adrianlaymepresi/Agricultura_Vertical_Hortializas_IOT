@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Vertical de Hortalizas con IOT</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/Control_Solucion_Nutritiva.css">
+</head>
+<body class="body">
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.webp" alt="Logo">
+        </a>
+        <a href="Control_Solucion_Nutritiva.html">
+            <h1 class="header__titulo" >CONTROL SOLUCIÓN NUTRITIVA</h1>
+        </a>
+        <nav class="header__menu">
+            <ul class="header__menu__lista">
+                <li class="header__menu__lista__item">
+                    <a class="header__menu__lista__item__a" href="Control_Ambiente.html">
+                        <img class="header__img__link" src="img/OP1.png" alt="Control del Ambiente">
+                        <span class="header__menu__lista__item__texto">Control <br> Ambiente <br> Plantas</span>
+                    </a>
+                </li>
+                <li class="header__menu__lista__item">
+                    <a class="header__menu__lista__item__a" href="Control_Solucion_Nutritiva.html">
+                        <img class="header__img__link" src="img/OP2.png" alt="Control de Solución Nutritiva">
+                        <span class="header__menu__lista__item__texto">Control <br> Solución <br> Nutritiva</span>
+                    </a>
+                </li>
+                <li class="header__menu__lista__item">
+                    <a class="header__menu__lista__item__a" href="Control_Torres_Cultivos.html">
+                        <img class="header__img__link" src="img/OP33.png" alt="Control de Torres de Cultivo">
+                        <span class="header__menu__lista__item__texto">Control <br> Torres <br> Cultivo</span>
+                    </a>
+                </li>                
+            </ul>
+        </nav>       
+    </header>
+
+    <main class="main">
+        <h2 class="main__titulo">CONTROL DE SOLUCIÓN NUTRITIVA</h2>
+    
+        <div class="main__sensor">
+            <div class="sensor">
+                <img src="img/PH agua.webp" alt="pH del Agua">
+                <div class="sensor__info">
+                    <h3 class="sensor__titulo">pH del Agua</h3>
+                    <p class="sensor__rango">(Rango: 0 - 14)</p>
+                    <div class="barra">
+                        <div class="progreso ph"></div>
+                    </div>
+                    <span class="valores" id="phValor">7</span>
+                </div>
+            </div>
+        
+            <div class="sensor">
+                <img src="img/Conductividad Electrica.png" alt="Conductividad Eléctrica">
+                <div class="sensor__info">
+                    <h3 class="sensor__titulo">Conductividad Eléctrica</h3>
+                    <p class="sensor__rango">(Rango: 0 - 10 mS/cm)</p>
+                    <div class="barra">
+                        <div class="progreso conductividad"></div>
+                    </div>
+                    <span class="valores" id="conductividadValor">5.0</span>
+                </div>
+            </div>
+        
+            <div class="sensor">
+                <img src="img/tanque agua.jpg" alt="Nivel del Tanque">
+                <div class="sensor__info">
+                    <h3 class="sensor__titulo">Nivel del Tanque</h3>
+                    <p class="sensor__rango">(Rango: 0% - 100%)</p>
+                    <div class="barra">
+                        <div class="progreso nivel"></div>
+                    </div>
+                    <span class="valores" id="nivelValor">75%</span>
+                </div>
+            </div>
+        </div>
+    </main>    
+
+    <footer class="footer">
+        <h3 class="footer__desarrolladores">Desarrolladores</h3>
+        <div class="footer__imagenes">
+            <div class="footer__imagenes__item">
+                <a href="#">
+                    <img class="footer__img" src="img/fenix.jpg" alt="Desarrollador 1">
+                </a>
+                <p class="footer__imagenes__item__texto">Ignacio Adrian Layme Delgado</p>
+            </div>
+            <div class="footer__imagenes__item">
+                <a href="#">
+                    <img class="footer__img" src="img/tigre.jpg" alt="Desarrollador 2">
+                </a>
+                <p class="footer__imagenes__item__texto">Nicolas Arturo Vargas Silva</p>
+            </div>
+            <div class="footer__imagenes__item">
+                <a href="#">
+                    <img class="footer__img" src="img/perezoso.png" alt="Desarrollador 3">
+                </a>
+                <p class="footer__imagenes__item__texto">Tyler James Wilson Rios</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/Control_Solucion_Nutritiva.js"></script>
+</body>
+</html>

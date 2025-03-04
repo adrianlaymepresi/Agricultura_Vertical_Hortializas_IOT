@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Vertical de Hortalizas con IOT</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/Control_Torres_Cultivo.css">
+</head>
+<body class="body">
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.webp" alt="Logo">
+        </a>
+        <a href="Control_Torres_Cultivos.html">
+            <h1 class="header__titulo" >CONTROL TORRES CULTIVO</h1>
+        </a>
+        <nav class="header__menu">
+            <ul class="header__menu__lista">
+                <li class="header__menu__lista__item">
+                    <a class="header__menu__lista__item__a" href="Control_Ambiente.html">
+                        <img class="header__img__link" src="img/OP1.png" alt="Control del Ambiente">
+                        <span class="header__menu__lista__item__texto">Control <br> Ambiente <br> Plantas</span>
+                    </a>
+                </li>
+                <li class="header__menu__lista__item">
+                    <a class="header__menu__lista__item__a" href="Control_Solucion_Nutritiva.html">
+                        <img class="header__img__link" src="img/OP2.png" alt="Control de Solución Nutritiva">
+                        <span class="header__menu__lista__item__texto">Control <br> Solución <br> Nutritiva</span>
+                    </a>
+                </li>
+                <li class="header__menu__lista__item">
+                    <a class="header__menu__lista__item__a" href="Control_Torres_Cultivos.html">
+                        <img class="header__img__link" src="img/OP33.png" alt="Control de Torres de Cultivo">
+                        <span class="header__menu__lista__item__texto">Control <br> Torres <br> Cultivo</span>
+                    </a>
+                </li>                
+            </ul>
+        </nav>       
+    </header>
+
+    <main class="main">
+        <h2 class="main__titulo">CONTROL TORRES y BOMBA</h2>
+    
+        <div class="icards-container">
+            <!-- Icard Torre Papa 1 -->
+            <div class="icard">
+                <img src="img/torre cultivo.jpeg" alt="Torre Papa" class="icard__imagen">
+                <p class="icard__texto">Papa</p>
+                <img src="img/papa.jpeg" alt="Verdura Papa" class="icard__verdura">
+                <button class="icard__estado" id="estadoPapa1">En funcionamiento</button>
+            </div>
+    
+            <!-- Icard Torre Papa 2 -->
+            <div class="icard">
+                <img src="img/torre cultivo.jpeg" alt="Torre Papa" class="icard__imagen">
+                <p class="icard__texto">Papa</p>
+                <img src="img/papa.jpeg" alt="Verdura Papa" class="icard__verdura">
+                <p class="icard__estado">En funcionamiento</p>
+            </div>
+    
+            <!-- Icard Torre Lechuga 1 -->
+            <div class="icard">
+                <img src="img/torre cultivo.jpeg" alt="Torre Lechuga" class="icard__imagen">
+                <p class="icard__texto">Lechuga</p>
+                <img src="img/lechuga.jpeg" alt="Verdura Lechuga" class="icard__verdura">
+                <p class="icard__estado">En funcionamiento</p>
+            </div>
+    
+            <!-- Icard Torre Lechuga 2 -->
+            <div class="icard">
+                <img src="img/torre cultivo.jpeg" alt="Torre Lechuga" class="icard__imagen">
+                <p class="icard__texto">Lechuga</p>
+                <img src="img/lechuga.jpeg" alt="Verdura Lechuga" class="icard__verdura">
+                <p class="icard__estado">En funcionamiento</p>
+            </div>
+    
+            <!-- Icard Torre Zanahoria 1 -->
+            <div class="icard">
+                <img src="img/torre cultivo.jpeg" alt="Torre Zanahoria" class="icard__imagen">
+                <p class="icard__texto">Zanahoria</p>
+                <img src="img/zanahoria.jpeg" alt="Verdura Zanahoria" class="icard__verdura">
+                <p class="icard__estado">En funcionamiento</p>
+            </div>
+    
+            <!-- Icard Torre Zanahoria 2 -->
+            <div class="icard">
+                <img src="img/torre cultivo.jpeg" alt="Torre Zanahoria" class="icard__imagen">
+                <p class="icard__texto">Zanahoria</p>
+                <img src="img/zanahoria.jpeg"  alt="Verdura Zanahoria" class="icard__verdura">
+                <p class="icard__estado">En funcionamiento</p>
+            </div>
+    
+            <!-- Icard Torre Remolacha 1 -->
+            <div class="icard">
+                <img src="img/torre cultivo.jpeg" alt="Torre Remolacha" class="icard__imagen">
+                <p class="icard__texto">Remolacha</p>
+                <img src="img/remolacha.jpeg" alt="Verdura Remolacha" class="icard__verdura">
+                <p class="icard__estado">En funcionamiento</p>
+            </div>
+    
+            <!-- Icard Torre Remolacha 2 -->
+            <div class="icard">
+                <img src="img/torre cultivo.jpeg" alt="Torre Remolacha" class="icard__imagen">
+                <p class="icard__texto">Remolacha</p>
+                <img src="img/remolacha.jpeg" alt="Verdura Remolacha" class="icard__verdura">
+                <p class="icard__estado">En funcionamiento</p>
+            </div>
+    
+            <!-- Icard Torre Choclo 1 -->
+            <div class="icard">
+                <img src="img/torre cultivo.jpeg" alt="Torre Choclo" class="icard__imagen">
+                <p class="icard__texto">Choclo</p>
+                <img src="img/choclo.jpeg" alt="Verdura Choclo" class="icard__verdura">
+                <p class="icard__estado">En funcionamiento</p>
+            </div>
+    
+            <!-- Icard Torre Choclo 2 -->
+            <div class="icard">
+                <img src="img/torre cultivo.jpeg" alt="Torre Choclo" class="icard__imagen">
+                <p class="icard__texto">Choclo</p>
+                <img src="img/choclo.jpeg" alt="Verdura Choclo" class="icard__verdura">
+                <p class="icard__estado">En funcionamiento</p>
+            </div>
+    
+            <!-- Icard Bomba de Agua -->
+            <div class="icard">
+                <h3 class="icard__titulo">Bomba de Agua</h3>
+                <img src="img/bomba de agua.jpg" alt="bomba de agua" class="icard__imagen__extra">
+                <button id="toggleFan" class="toggle-btn">Apagado</button>
+            </div>
+    
+            <!-- Icard Estado de Riego -->
+            <div class="icard">
+                <h3 class="icard__titulo">Estado de Riego</h3>
+                <img src="img/riego.jpg" alt="riego" class="icard__imagen__extra">
+                <button id="toggleRiego" class="toggle-btn1">Sin Riego</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h3 class="footer__desarrolladores">Desarrolladores</h3>
+        <div class="footer__imagenes">
+            <div class="footer__imagenes__item">
+                <a href="#">
+                    <img class="footer__img" src="img/fenix.jpg" alt="Desarrollador 1">
+                </a>
+                <p class="footer__imagenes__item__texto">Ignacio Adrian Layme Delgado</p>
+            </div>
+            <div class="footer__imagenes__item">
+                <a href="#">
+                    <img class="footer__img" src="img/tigre.jpg" alt="Desarrollador 2">
+                </a>
+                <p class="footer__imagenes__item__texto">Nicolas Arturo Vargas Silva</p>
+            </div>
+            <div class="footer__imagenes__item">
+                <a href="#">
+                    <img class="footer__img" src="img/perezoso.png" alt="Desarrollador 3">
+                </a>
+                <p class="footer__imagenes__item__texto">Tyler James Wilson Rios</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/Control_Torres_Cultivo.js"></script>
+</body>
+</html>

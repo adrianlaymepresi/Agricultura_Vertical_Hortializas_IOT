@@ -1,0 +1,107 @@
+/* Paleta de Colores */
+/* link: https://www.colorhunt.co/palette/3d8d7ab3d8a8fbffe4a3d1c6 */
+:root {
+    --color-primario: #3D8D7A;
+    --color-secundario: #B3D8A8;
+    --color-fondo: #FBFFE4;
+    --color-acento: #A3D1C6;
+    --color-navegacion: #dcf3ee;
+    --color-torres--texto: #cf3c49;
+}
+
+/* Fuentes Tipograficas */
+:root {
+    --fuente-titulo: "Playfair Display", serif;
+    --fuente-subtitulo: "Poppins", sans-serif;
+    --fuente-texto: "Roboto", sans-serif;
+    --fuente-boton: "Montserrat", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}	
+
+/* HEADER */
+
+.header{
+    background-color: var(--color-navegacion);
+    padding: 10vh 0;
+}
+
+.header__logo {
+    height: 27vh;
+    width: 27vh;
+    border-radius: 22%;
+    border: 1vh solid var(--color-primario);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__titulo{
+    font-size: 4.5vh;
+    font-family: var(--fuente-titulo);
+    color: var(--color-primario);
+    font-weight: bold;
+    margin: 4vh;
+}
+
+.header__img__link{
+    height: 22vh;
+    width: 22vh;
+    border-radius: 20%;
+    margin: 2vh;
+    border: 0.7vh solid var(--color-primario);
+}
+
+.header__menu__lista{
+    list-style: none;
+    gap: 7vh;
+}
+
+.header__menu__lista__item__texto{
+    font-size: 2.5vh;
+    font-family: var(--fuente-boton);
+    color: var(--color-primario);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: var(--color-navegacion);
+    padding: 9vh 0;
+}
+
+.footer__desarrolladores{
+    font-size: 4.5vh;
+    font-family: var(--fuente-titulo);
+    color: var(--color-primario);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 2vh;
+}
+
+.footer__img{
+    height: 32vh;
+    width: 32vh;
+    border-radius: 5%;
+    margin: 0 auto;
+    border: 1vh solid var(--color-torres--texto);
+    margin-bottom: 2vh;
+}
+
+.footer__imagenes__item{
+    margin: 9vh;
+}
+
+.footer__imagenes__item__texto{
+    text-align: center;
+}
+
+

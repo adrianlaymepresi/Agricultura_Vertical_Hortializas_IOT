@@ -1,0 +1,140 @@
+/* Paleta de Colores */
+/* link: https://www.colorhunt.co/palette/3d8d7ab3d8a8fbffe4a3d1c6 */
+:root {
+    --color-primario: #3D8D7A;
+    --color-secundario: #B3D8A8;
+    --color-fondo: #FBFFE4;
+    --color-acento: #A3D1C6;
+    --color-navegacion: #dcf3ee;
+    --color-torres: #d1f7e0;
+    --color-torres--texto: #cf3c49;
+}
+
+/* Fuentes Tipograficas */
+:root {
+    --fuente-titulo: "Playfair Display", serif;
+    --fuente-subtitulo: "Poppins", sans-serif;
+    --fuente-texto: "Roboto", sans-serif;
+    --fuente-boton: "Montserrat", sans-serif;
+}
+
+.main{
+    background-color: var(--color-fondo);
+    padding: 7vh 0;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__titulo{
+    font-size: 4.5vh;
+    font-family: var(--fuente-titulo);
+    color: var(--color-primario);
+    font-weight: 600;
+    margin: 4vh;
+    text-transform: uppercase;
+}
+
+/* Contenedor de las icards */
+.icards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo de cada icard */
+.icard {
+    background-color: var(--color-torres);
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.icard__imagen{
+    border: 1vh solid var(--color-torres--texto);
+    height: 50vh;
+    width: 30vh;
+    border-radius: 8px;
+    margin: 3vh 0;
+}
+
+.icard__imagen__extra{
+    border: 1vh solid var(--color-torres--texto);
+    height: 30vh;
+    width: 30vh;
+    border-radius: 8px;
+    margin: 4vh 0;
+}
+
+.icard__verdura {
+    height:20vh;
+    width: 20vh;
+    border-radius: 8px;
+    margin: 4vh 0;
+    border: 1vh solid rgb(14, 99, 14);
+}
+
+.icard__texto, .icard__titulo {
+    font-size: 1.2rem;
+    font-family: var(--fuente-subtitulo);
+    margin-bottom: 10px;
+    color: var(--color-torres--texto);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.icard__estado {
+    font-size: 1rem;
+    color: var(--color-primario);
+    font-family: var(--fuente-boton);
+}
+
+/* Estilos para los botones */
+.toggle-btn, .toggle-btn1{
+    background: var(--color-acento);
+    color: var(--color-primario);
+    font-family: var(--fuente-boton);
+    font-size: 1.2rem;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.icard__estado{
+    background: var(--color-acento);
+    color: var(--color-primario);
+    font-family: var(--fuente-boton);
+    font-size: 3vh;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.icard__estado:hover {
+    background: var(--color-fondo);
+    transform: scale(1.05);
+}
+
+.icard__estado.encendido {
+    background: var(--color-fondo);
+}
+
+.toggle-btn:hover, .toggle-btn1:hover {
+    background: var(--color-fondo);
+    transform: scale(1.05);
+}
+
+.toggle-btn.encendido, .toggle-btn1.encendido {
+    background: var(--color-fondo);
+}

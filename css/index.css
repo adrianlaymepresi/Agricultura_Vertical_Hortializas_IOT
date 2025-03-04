@@ -1,0 +1,43 @@
+/* Paleta de Colores */
+/* link: https://www.colorhunt.co/palette/3d8d7ab3d8a8fbffe4a3d1c6 */
+:root {
+    --color-primario: #3D8D7A;
+    --color-secundario: #B3D8A8;
+    --color-fondo: #FBFFE4;
+    --color-acento: #A3D1C6;
+    --color-navegacion: #dcf3ee;
+}
+
+/* Fuentes Tipograficas */
+:root {
+    --fuente-titulo: "Playfair Display", serif;
+    --fuente-subtitulo: "Poppins", sans-serif;
+    --fuente-texto: "Roboto", sans-serif;
+    --fuente-boton: "Montserrat", sans-serif;
+}
+
+.main{
+    /* RESPONSIVE */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* STYLES */
+    background-color: var(--color-fondo);
+    padding: 5vh 0;
+}
+
+.main__titulo{
+    font-size: 4.5vh;
+    font-family: var(--fuente-titulo);
+    color: var(--color-primario);
+    font-weight: 600;
+    margin: 4vh;
+    text-transform: uppercase;
+}
+
+.main__img1{
+    height: 110vh;
+    width: 150vh;
+    border-radius: 5%;
+}

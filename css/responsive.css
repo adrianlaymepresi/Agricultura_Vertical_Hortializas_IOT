@@ -1,0 +1,59 @@
+/* Paleta de Colores */
+/* link: https://www.colorhunt.co/palette/3d8d7ab3d8a8fbffe4a3d1c6 */
+:root {
+    --color-primario: #3D8D7A;
+    --color-secundario: #B3D8A8;
+    --color-fondo: #FBFFE4;
+    --color-acento: #A3D1C6;
+}
+
+/* Fuentes Tipograficas */
+:root {
+    --fuente-titulo: "Playfair Display", serif;
+    --fuente-subtitulo: "Poppins", sans-serif;
+    --fuente-texto: "Roboto", sans-serif;
+    --fuente-boton: "Montserrat", sans-serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header__menu__lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header__menu__lista__item .header__menu__lista__item__a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer__imagenes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
