@@ -141,6 +141,8 @@
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+    background-color: #dcfcfc;
+    padding: 30px;
 }
 
 .ventilador__img {
